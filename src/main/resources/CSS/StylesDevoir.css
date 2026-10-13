@@ -1,0 +1,170 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #1E1E2F;
+}
+
+/* Labels */
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+#lblResultat {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00E5FF;
+    -fx-padding: 10;
+}
+
+/* TextFields */
+
+.text-field {
+    -fx-background-color: #2D2D44;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #AAAAAA;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #555577;
+    -fx-border-width: 1;
+}
+
+/* Buttons */
+
+.button {
+    -fx-pref-width: 250;
+    -fx-background-color: #6C5CE7;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #7D6EFF;
+}
+
+.button:pressed {
+    -fx-background-color: #5A4CCF;
+}
+
+/* TreeView */
+
+.tree-view {
+    -fx-background-color: #252538;
+    -fx-border-color: #444455;
+    -fx-border-width: 1;
+}
+
+.tree-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+}
+
+.tree-cell:selected {
+    -fx-background-color: #00B894;
+    -fx-text-fill: white;
+}
+
+/* VBox */
+
+.vbox {
+    -fx-padding: 20;
+}
+
+/* HBox */
+
+.hbox {
+    -fx-padding: 5;
+}
+
+/* Titre */
+
+.titre {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #00E5FF;
+}
+
+/* Panneaux */
+
+.panneau {
+    -fx-background-color: #2A2A40;
+    -fx-background-radius: 12;
+    -fx-padding: 15;
+}
+/* ComboBox */
+
+.combo-box {
+    -fx-background-color: #2D2D44;
+    -fx-background-radius: 8;
+    -fx-border-color: #555577;
+    -fx-border-radius: 8;
+    -fx-border-width: 1;
+    -fx-font-size: 13px;
+}
+
+/* Texte affiché */
+
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+/* Zone de saisie */
+
+.combo-box-base {
+    -fx-background-color: #2D2D44;
+}
+
+/* Bouton de la flèche */
+
+.combo-box .arrow-button {
+    -fx-background-color: #6C5CE7;
+    -fx-background-radius: 0 8 8 0;
+}
+
+.combo-box .arrow {
+    -fx-background-color: white;
+}
+
+/* Survol */
+
+.combo-box:hover {
+    -fx-border-color: #00E5FF;
+}
+
+/* Focus */
+
+.combo-box:focused {
+    -fx-border-color: #00E5FF;
+    -fx-border-width: 2;
+}
+
+/* Liste déroulante */
+
+.combo-box-popup .list-view {
+    -fx-background-color: #2D2D44;
+    -fx-border-color: #555577;
+}
+
+/* Lignes de la liste */
+
+.combo-box-popup .list-cell {
+    -fx-background-color: #2D2D44;
+    -fx-text-fill: white;
+}
+
+/* Survol d'une ligne */
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #6C5CE7;
+}
+
+/* Ligne sélectionnée */
+
+.combo-box-popup .list-cell:selected {
+    -fx-background-color: #00B894;
+    -fx-text-fill: white;
+}
